@@ -1,7 +1,7 @@
 export const scaleFactor = 4;
 
 export const dialogueData = {
-  pc: `
+	pc: `
    <div style="text-align: center; font-family: 'Segoe UI', sans-serif; line-height: 1.6;">
     <p>
       👋 Hi, I’m <strong>Lydia Bandy</strong> — software engineer, music composer, and music educator.
@@ -32,12 +32,12 @@ export const dialogueData = {
   </div>
 `,
 
-  "cs-degree": `
+	"cs-degree": `
  <div style="text-align: center; font-family: 'Segoe UI', sans-serif; line-height: 1.6;">
     <p>
       I attended <strong>McDaniel College</strong>, receiving a B.A. in Music.
     </p>
-    <img src="./McDanielCollege.jpg" width="200" height="160" alt="McDaniel College Degree" style="margin: 10px 0; border-radius: 8px;" />
+    <img src="McDanielCollege.jpg" width="200" height="160" alt="McDaniel College Degree" style="margin: 10px 0; border-radius: 8px;" />
     
     <p>
       For over 25 years, I've been a <strong>professional harpist, pianist, and award-winning music educator</strong>.
@@ -57,7 +57,7 @@ export const dialogueData = {
   </div>
 `,
 
-  "sofa-table": `
+	"sofa-table": `
   <div style="text-align: center; font-family: 'Segoe UI', sans-serif; line-height: 1.6;">
     <p>🎹 I love relaxing on the couch and uploading harp and piano videos to my YouTube and TikTok channels.</p>
     <p>
@@ -77,7 +77,7 @@ export const dialogueData = {
   </div>
 `,
 
-  tv: `
+	tv: `
 <div style="text-align: center; font-family: 'Segoe UI', sans-serif; line-height: 1.6; max-width: 100%; overflow-x: hidden;">
   <p>📺 What’s your favorite comedy show?</p>
   <p>I love kicking back and watching <strong>The Office</strong> — it never gets old!</p>
@@ -88,11 +88,11 @@ export const dialogueData = {
       The Office Hangman Game
     </a>
   </p>
-  <img src="./Hangman_Office_Edition.png" style="width: 100%; max-width: 300px; height: auto; margin-top: 10px; border-radius: 8px;" alt="The Office Hangman Game" />
+  <img src="Hangman_Office_Edition.png" style="width: 100%; max-width: 300px; height: auto; margin-top: 10px; border-radius: 8px;" alt="The Office Hangman Game" />
 </div>
 `,
 
-  bed: `
+	bed: `
   <div style="text-align: center; font-family: 'Segoe UI', sans-serif; line-height: 1.6;">
     <p>🛏️ Not only am I a software engineer, I’m also a music composer! 🎶🎹</p>
     <p>Having trouble sleeping? Drift off with my album <strong>"Piano Pearls"</strong> — peaceful piano music to soothe your soul. 👶🏻💤</p>
@@ -106,14 +106,14 @@ export const dialogueData = {
   </div>
 `,
 
-  resume: `<div style="text-align: center; font-family: 'Segoe UI', sans-serif; line-height: 1.6;">
+	resume: `<div style="text-align: center; font-family: 'Segoe UI', sans-serif; line-height: 1.6;">
   <p><strong>Freelance Web Developer</strong></p>
   <p>
     I created this simple but effective landing page for 
     <a href="https://albertbandy.com/" target="_blank">Al's Woodcraft Creation</a>, an Etsy-based woodworking business.
     By implementing smart SEO tactics and marketing strategies, I helped boost his sales by <strong>80%</strong>!
   </p>
-  <img src="./AlsWoodcraft.png" width="300" height="240" alt="Al's Woodcraft Creation" style="margin: 20px auto; display: block; border-radius: 8px;" />
+  <img src="AlsWoodcraft.png" width="300" height="240" alt="Al's Woodcraft Creation" style="margin: 20px auto; display: block; border-radius: 8px;" />
   <p> 
     Need a website for your small business or personal brand? I'm available for freelance work! 
     <br>Whether it's a landing page, portfolio, or custom site — I’d love to help bring your vision to life.
@@ -123,7 +123,7 @@ export const dialogueData = {
   </p>
 </div>
 `,
-  projects: `
+	projects: `
   <div style="text-align: left; font-family: 'Segoe UI', sans-serif; line-height: 1.6;">
     <p>💻 My portfolio includes:</p>
 
@@ -136,25 +136,25 @@ export const dialogueData = {
       <li>
         🎮 <a href="https://github.com/LydiasPianoStudio/react-trivia" target="_blank"><strong>React Trivia Game</strong></a> — built with React, TypeScript, JavaScript, and Bootstrap.
       </li>
-      <img src="./MusicHistoryQuiz2.png" width="300" height="240" alt="Music Quiz" style="margin: 20px auto; display: block; border-radius: 8px;" />
+      <img src="MusicHistoryQuiz2.png" width="300" height="240" alt="Music Quiz" style="margin: 20px auto; display: block; border-radius: 8px;" />
       <li>
         🎼 <a href="https://github.com/LydiasPianoStudio/-joy-of-coding--internship-solo-project-" target="_blank">
           <strong>Practice Log App</strong>
         </a> — for my piano students, using <em>Next.js, React, Tailwind, Radix UI, Prisma, MySQL, and Axios</em>.
       </li>
-      <img src="./PracticeLogPage.png" width="300" height="240" alt="Practice Log Page" style="margin: 20px auto; display: block; border-radius: 8px;" />
+      <img src="PracticeLogPage.png" width="300" height="240" alt="Practice Log Page" style="margin: 20px auto; display: block; border-radius: 8px;" />
     </ul>
   </div>
 `,
 
-  library: `  <div style="text-align: left; font-family: 'Segoe UI', sans-serif; line-height: 1.6;">
+	library: `  <div style="text-align: left; font-family: 'Segoe UI', sans-serif; line-height: 1.6;">
   <p>
     🧑‍💻 I’m a Junior Developer at <strong>TechJoy Software</strong> where I help bring ideas to life.
   </p>
     <p>
     Our current project is <a href="https://supportlocalusa.com/" target="_blank"><strong>SupportLocalUSA.com</strong></a> — a platform that empowers local communities by promoting their businesses online. 💼🌟
   </p>
-  <img src="./SupportLocal.png" alt="Support Local USA Project" width="300" height="240" style="border-radius: 8px; margin: 20px auto; display: block;" />
+  <img src="SupportLocal.png" alt="Support Local USA Project" width="300" height="240" style="border-radius: 8px; margin: 20px auto; display: block;" />
   <p>
     By leveraging Agile (Scrum) methodologies to drive efficiency and participating in stand-ups, sprint planning, and backlog prioritization, I helped reduce development cycle times by 15% and increase user engagement by 20%.. 🚀
   </p>
@@ -175,9 +175,9 @@ export const dialogueData = {
 </p>
 `,
 
-  exit: `<div style="text-align: left; font-family: 'Segoe UI', sans-serif; line-height: 1.6;">
+	exit: `<div style="text-align: left; font-family: 'Segoe UI', sans-serif; line-height: 1.6;">
   Thanks for stopping by and visiting me at my virtual home!  
-  <img src="./LydiaBandy.jpg" alt="Lydia Bandy" width="160" height="160" style="border-radius: 50%; margin: 10px 0;" />
+  <img src="LydiaBandy.jpg" alt="Lydia Bandy" width="160" height="160" style="border-radius: 50%; margin: 10px 0;" />
   <br>Feel free to check out my website at
    <a href="https://lydiaspianostudio.com/" target="_blank">LydiasPianoStudio</a>,
     just close the tab and stop by anytime!`,
